@@ -2,7 +2,7 @@
 
 [Azure CycleCloud](https://docs.microsoft.com/en-us/azure/cyclecloud/) はMicrosoft Azure上で簡単にCAE/HPC/Deep Learning用のクラスタ環境を構築できるソリューションです。
 
-![Azure CycleCloudの構築・テンプレート構成](画像URL "Azure CycleCloudの構築・テンプレート構成")
+![Azure CycleCloudの構築・テンプレート構成](https://raw.githubusercontent.com/hirtanak/osspbsdefault/master/AzureCycleCloud-OSSPBSDefault.png "Azure CycleCloudの構築・テンプレート構成")
 
 Azure CyceCloudのインストールに関しては、[こちら] (https://docs.microsoft.com/en-us/azure/cyclecloud/quickstart-install-cyclecloud) のドキュメントを参照してください。
 
@@ -18,7 +18,7 @@ CAE/HPCアプリケーションをインストールするためのベースラ�
 4. MasterノードのIPアドレスを固定設定
 	 - 一旦停止後、再度起動した場合にアクセスする先のIPアドレスが変更されない
 
-![OSS PBS Default テンプレート構成](画像URL "OSS PBS Default テンプレート構成")
+![OSS PBS Default テンプレート構成](https://raw.githubusercontent.com/hirtanak/osspbsdefault/master/OSSPBSDefaultDiagram.png "OSS PBS Default テンプレート構成")
 
 OSS PBS Defaultテンプレートインストール方法
 
