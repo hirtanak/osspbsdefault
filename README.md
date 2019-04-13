@@ -4,7 +4,7 @@
 
 ![Azure CycleCloudの構築・テンプレート構成](https://raw.githubusercontent.com/hirtanak/osspbsdefault/master/AzureCycleCloud-OSSPBSDefault.png "Azure CycleCloudの構築・テンプレート構成")
 
-Azure CyceCloudのインストールに関しては、[こちら] (https://docs.microsoft.com/en-us/azure/cyclecloud/quickstart-install-cyclecloud) のドキュメントを参照してください。
+Azure CyceCloudのインストールに関しては、[こちら](https://docs.microsoft.com/en-us/azure/cyclecloud/quickstart-install-cyclecloud) のドキュメントを参照してください。
 
 CAE/HPCアプリケーションをインストールするためのベースライン用のテンプレートになっています。
 以下の構成、特徴を持っています。
