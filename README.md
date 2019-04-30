@@ -25,7 +25,11 @@ OSS PBS Defaultテンプレートインストール方法
 1. テンプレート本体をダウンロード
 2. 展開、ディレクトリ移動
 3. cyclecloudコマンドラインからテンプレートインストール 
-   - [cyclecloud-OSSPBSDefault]$ cyclecloud import_template -f templates/osspbsdefault.txt
+   - tar zxvf cyclecloud-OSSPBSDefault.tar.gz
+   - cd cyclecloud-OSSPBSDefault
+   - cyclecloud project upload azure-storage
+   - cyclecloud import_template -f templates/osspbsdefault.txt
+4. 削除したい場合、 cyclecloud delete_template osspbsdefault コマンドで削除可能
 
 ***
 Copyright Hiroshi Tanaka, hirtanak@gmail.com, @hirtanak . All rights reserved.
