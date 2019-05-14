@@ -22,6 +22,8 @@ CAE/HPCアプリケーションをインストールするためのベースラ�
 
 OSS PBS Defaultテンプレートインストール方法
 
+前提条件: テンプレートを利用するためには、Azure CycleCloud CLIのインストールと設定が必要です。詳しくは、 [こちら](https://docs.microsoft.com/en-us/azure/cyclecloud/install-cyclecloud-cli) の文書からインストールと展開されたAzure CycleCloudサーバのFQDNの設定が必要です。
+
 1. テンプレート本体をダウンロード
 2. 展開、ディレクトリ移動
 3. cyclecloudコマンドラインからテンプレートインストール 
