@@ -7,7 +7,7 @@
 
 [cluster OSSPBSDefault]
 FormLayout = selectionpanel
-Category = Applications
+Category = Schedulers
 IconUrl = https://raw.githubusercontent.com/hirtanak/scripts/master/pbslogo.png
 
 Autoscale = $Autoscale
@@ -123,7 +123,7 @@ Order = 10
         Label = Execute VM Type
         Description = The VM type for execute nodes
         ParameterType = Cloud.MachineType
-        DefaultValue = Standard_H16r
+        DefaultValue = Standard_H16r_Promo
         Config.Multiselect = true
 
 

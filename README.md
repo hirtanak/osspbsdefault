@@ -12,8 +12,8 @@ CAE/HPCアプリケーションをインストールするためのベースラ�
 1. OSS PBSジョブスケジューラをMasterノードにインストール
 2. H16r (Haswell 16コア FDR)を想定したテンプレート、イメージ
 	 - OpenLogic CentOS 7.4 HPC を利用 
-	 - HB/HCに関しては、変更が必要な可能性があり
-3. Masterノードに512GB * 2 のNFSストレージサーバを提供
+	 - HB/HCに関しては、変更が必要な可能性がある。現在設定
+3. Masterノードに512GB * 2 のNFSストレージサーバを搭載
 	 - Executeノード（計算ノード）からNFSをマウント
 4. MasterノードのIPアドレスを固定設定
 	 - 一旦停止後、再度起動した場合にアクセスする先のIPアドレスが変更されない
@@ -34,5 +34,5 @@ OSS PBS Defaultテンプレートインストール方法
 4. 削除したい場合、 cyclecloud delete_template osspbsdefault コマンドで削除可能
 
 ***
-Copyright Hiroshi Tanaka, hirtanak@gmail.com, @hirtanak . All rights reserved.
+Copyright Hiroshi Tanaka, hirtanak@gmail.com, @hirtanak All rights reserved.
 Use of this source code is governed by MIT license that can be found in the LICENSE file.
